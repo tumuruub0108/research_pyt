@@ -27,6 +27,7 @@ ipython==8.38.0
 iterators==0.0.2
 jedi==0.19.2
 Jinja2==3.1.6
+joblib==1.5.3
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
 jupyter_client==8.8.0
@@ -66,11 +67,14 @@ referencing==0.37.0
 requests==2.32.5
 rich==13.9.4
 rpds-py==0.30.0
+scikit-learn==1.7.2
+scipy==1.15.3
 shellingham==1.5.4
 six==1.17.0
 SQLAlchemy==2.0.46
 stack-data==0.6.3
 sympy==1.14.0
+threadpoolctl==3.6.0
 tomli==2.4.0
 tomli_w==1.2.0
 torch==2.10.0

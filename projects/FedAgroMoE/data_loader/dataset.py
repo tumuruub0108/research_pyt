@@ -4,7 +4,6 @@ from torch.utils.data import DataLoader
 
 
 def load_fashion_mnist(batch_size=32):
-
     train_data = datasets.FashionMNIST(
         root="../../../datasets",
         train=True,
@@ -23,3 +22,7 @@ def load_fashion_mnist(batch_size=32):
     test_loader = DataLoader(test_data, batch_size=batch_size)
 
     return train_loader, test_loader
+
+
+def load_cifar10(batch_size=32):
+    print("downloading cifar10...")

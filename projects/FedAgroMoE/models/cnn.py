@@ -2,7 +2,7 @@ from torch import nn
 
 
 # create convolutional neural network
-class ConvolutionalModel(nn.Module):
+class CNN(nn.Module):
     def __init__(self, input_shape: int, hidden_units: int, output_shape: int):
         super().__init__()
         self.conv_block_1 = nn.Sequential(

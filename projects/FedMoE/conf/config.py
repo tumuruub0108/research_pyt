@@ -13,3 +13,6 @@ STRIDE = 1
 # ===== Federated Learning =====
 NUM_CLIENTS = 5
 CLIENT_ID = 0
+
+# ===== CNN + MoE =====
+NUM_EXPERTS = 10

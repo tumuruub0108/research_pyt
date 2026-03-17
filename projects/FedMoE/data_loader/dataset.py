@@ -1,7 +1,7 @@
 from torchvision.datasets import FashionMNIST, CIFAR10
 from torchvision.transforms import ToTensor
 from torch.utils.data import DataLoader
-from utils.config import BATCH_SIZE, DATA_PATH
+from conf.config import BATCH_SIZE, DATA_PATH
 
 
 def load_fashion_mnist(batch_size=BATCH_SIZE):

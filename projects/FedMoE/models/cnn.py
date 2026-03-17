@@ -1,5 +1,5 @@
 from torch import nn
-from utils.config import KERNEL_SIZE, PADDING, STRIDE
+from conf.config import KERNEL_SIZE, PADDING, STRIDE
 
 
 # create convolutional neural network

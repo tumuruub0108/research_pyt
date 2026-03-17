@@ -1,4 +1,5 @@
 from torch import nn
+from config import KERNEL_SIZE, PADDING, STRIDE
 
 
 # create convolutional neural network
@@ -9,17 +10,17 @@ class CNN(nn.Module):
             nn.Conv2d(
                 in_channels=input_shape,
                 out_channels=hidden_units,
-                kernel_size=3,
-                padding=1,
-                stride=1,
+                kernel_size=KERNEL_SIZE,
+                padding=PADDING,
+                stride=STRIDE,
             ),
             nn.ReLU(),
             nn.Conv2d(
                 in_channels=hidden_units,
                 out_channels=hidden_units,
-                kernel_size=3,
-                padding=1,
-                stride=1,
+                kernel_size=KERNEL_SIZE,
+                padding=PADDING,
+                stride=STRIDE,
             ),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
@@ -29,17 +30,17 @@ class CNN(nn.Module):
             nn.Conv2d(
                 in_channels=hidden_units,
                 out_channels=hidden_units,
-                kernel_size=3,
-                padding=1,
-                stride=1,
+                kernel_size=KERNEL_SIZE,
+                padding=PADDING,
+                stride=STRIDE,
             ),
             nn.ReLU(),
             nn.Conv2d(
                 in_channels=hidden_units,
                 out_channels=hidden_units,
-                kernel_size=3,
-                padding=1,
-                stride=1,
+                kernel_size=KERNEL_SIZE,
+                padding=PADDING,
+                stride=STRIDE,
             ),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),

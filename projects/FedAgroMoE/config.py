@@ -1,0 +1,15 @@
+# ===== Training =====
+BATCH_SIZE = 32
+EPOCHS = 10
+DATA_PATH = "../../../datasets"
+LEARNING_RATE = 0.1
+
+
+# ===== CNN =====
+KERNEL_SIZE = 3
+PADDING = 1
+STRIDE = 1
+
+# ===== Federated Learning =====
+NUM_CLIENTS = 5
+CLIENT_ID = 0

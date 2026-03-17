@@ -1,0 +1,2 @@
+# ====== FashionMNIST dataset ======
+cnn_results: {'model_name': 'CNN', 'model_loss': 0.29969513416290283, 'model_acc': 89.25718849840256}

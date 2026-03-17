@@ -5,8 +5,8 @@ from tqdm.auto import tqdm
 from data_loader.dataset import load_fashion_mnist
 from training.train import train_step, test_step
 from models.cnn import CNN
-from config import LEARNING_RATE, EPOCHS
-from helper_functions import accuracy_fn, eval_model
+from utils.config import LEARNING_RATE, EPOCHS
+from utils.helper_functions import accuracy_fn, eval_model
 
 
 def main():
@@ -25,7 +25,7 @@ def main():
     optimizer = torch.optim.SGD(params=cnn_model.parameters(), lr=LEARNING_RATE)
 
     for epoch in tqdm(range(EPOCHS)):
-        print(f"Epoch: {epoch}\n ________")
+        print(f" Epoch: {epoch} ")
 
         train_step(
             model=cnn_model,

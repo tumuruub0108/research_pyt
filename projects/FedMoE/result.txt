@@ -1,2 +1,5 @@
 # ====== FashionMNIST dataset ======
 cnn_results: {'model_name': 'CNN', 'model_loss': 0.29969513416290283, 'model_acc': 89.25718849840256}
+moe_results: {'model_name': 'MoE', 'model_loss': 0.2804855704307556, 'model_acc': 89.86621405750799}
+
+# ====== cifar10 dataset ======

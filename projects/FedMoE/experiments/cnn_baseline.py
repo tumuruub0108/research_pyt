@@ -7,7 +7,7 @@ from training.train import train_step, test_step
 from utils.helper_functions import accuracy_fn, eval_model
 
 
-def run_baseline(
+def train_cnn_baseline(
     train_loader: torch.utils.data.DataLoader,
     test_loader: torch.utils.data.DataLoader,
     device: torch.device,

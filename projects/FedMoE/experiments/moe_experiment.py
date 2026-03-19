@@ -1,8 +1,7 @@
 import torch
 from torch import nn
-from models.moe import MoE
 from tqdm.auto import tqdm
-from conf.config import EPOCHS, LEARNING_RATE, NUM_EXPERTS
+from conf.config import EPOCHS, LEARNING_RATE
 from training.train import train_step, test_step
 from utils.helper_functions import accuracy_fn, eval_model
 

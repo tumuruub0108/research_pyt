@@ -15,7 +15,8 @@ class MoE(nn.Module):
             input_shape=input_shape, hidden_units=hidden_units
         )
 
-        self.feature_dim = hidden_units * 7 * 7
+        # fashion 7*7
+        self.feature_dim = hidden_units * 8 * 8
 
         # Experts
         self.experts = nn.ModuleList(

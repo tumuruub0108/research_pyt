@@ -13,7 +13,7 @@ def train_cnn_baseline(
     device: torch.device,
     class_names,
 ):
-    cnn_model = CNN(input_shape=1, hidden_units=10, output_shape=len(class_names))
+    cnn_model = CNN(input_shape=3, hidden_units=10, output_shape=len(class_names))
     loss_fn = nn.CrossEntropyLoss()
     optimizer = torch.optim.SGD(params=cnn_model.parameters(), lr=LEARNING_RATE)
 

@@ -1,5 +1,5 @@
 import torch
-from data_loader.dataset import load_fashion_mnist
+from data_loader.dataset import load_fashion_mnist, load_cifar10
 from experiments.cnn_baseline import train_cnn_baseline
 from experiments.moe_experiment import train_moe_model
 from models.moe import MoE
@@ -9,15 +9,15 @@ from analysis.expert_analysis import compute_expert_class_matrix, plot_expert_he
 
 def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    # print(f"device: {device}")
+    print(f"device: {device}")
 
-    train_loader, test_loader, class_names = load_fashion_mnist()
-    # print(f"Lenght of train_loader: {len(train_loader)}.")
-    # print(f"Lenght of test_loader: {len(test_loader)}.")
-    # print(f"class names: {class_names}")
+    train_loader, test_loader, class_names = load_cifar10()
+    print(f"Lenght of train_loader: {len(train_loader)}.")
+    print(f"Lenght of test_loader: {len(test_loader)}.")
+    print(f"class names: {class_names} | length: {len(class_names)}")
 
     moe_model = MoE(
-        input_shape=1,
+        input_shape=3,
         hidden_units=10,
         output_shape=len(class_names),
         num_experts=NUM_EXPERTS,
@@ -47,7 +47,9 @@ def main():
     plot_expert_heatmap(matrix=matrix)
 
 
-"""  cnn_baseline_result = train_cnn_baseline(
+"""
+
+    cnn_baseline_result = train_cnn_baseline(
         train_loader=train_loader,
         test_loader=test_loader,
         device=device,
@@ -57,6 +59,7 @@ def main():
     print(f"cnn_baseline_result: {cnn_baseline_result}")
     
 """
+
 
 if __name__ == "__main__":
     main()

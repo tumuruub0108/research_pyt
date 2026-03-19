@@ -17,4 +17,4 @@ NUM_CLIENTS = 5
 CLIENT_ID = 0
 
 # ===== CNN + MoE =====
-NUM_EXPERTS = 8
+NUM_EXPERTS = 6

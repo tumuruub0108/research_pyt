@@ -1,10 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+1. Generate 2D Gaussian Data
+diff stands for difference. It is a vector that represents the distance between your input data points and the center of the Gaussian curve
 
-# -----------------------------
-# 1. Generate 2D Gaussian Data
-# -----------------------------
+"""
+
+
 def gaussian_2d(x, mu, C):
     diff = x - mu
     inv_C = np.linalg.inv(C)
@@ -47,7 +50,7 @@ class MLP:
         self.b2 = np.zeros((1, 1))
 
     def forward(self, x):
-        self.x = x.reshape(-1, 1)  # (2,1)
+        self.x = x.reshape(-1, 1)
 
         self.z1 = self.W1 @ self.x + self.b1
         self.a1 = sigmoid(self.z1)

@@ -17,3 +17,6 @@ Switch Transformers / Expert Capacity:  https://arxiv.org/abs/2101.03961
 A Blog post: https://brunomaga.github.io/Mixture-of-Experts
 A visual guide: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
 Survey paper: https://arxiv.org/pdf/2407.06204
+
+
+https://gurjeet333.medium.com/7-best-techniques-to-improve-the-accuracy-of-cnn-w-o-overfitting-6db06467182f#cd69

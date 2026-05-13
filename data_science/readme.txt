@@ -1,0 +1,1 @@
+used book is data science from scratch by Joel Grus. It is a great book for beginners and covers a wide range of topics in data science, including statistics, machine learning, and data visualization. The book is written in Python and includes many examples and exercises to help you learn the concepts. I highly recommend it for anyone interested in learning data science.

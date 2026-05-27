@@ -21,4 +21,6 @@ Survey paper: https://arxiv.org/pdf/2407.06204
 
 https://gurjeet333.medium.com/7-best-techniques-to-improve-the-accuracy-of-cnn-w-o-overfitting-6db06467182f#cd69
 
-# Data Science Gurus
+
+# activate command 
+pyenv activate env 

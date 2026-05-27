@@ -24,3 +24,6 @@ https://gurjeet333.medium.com/7-best-techniques-to-improve-the-accuracy-of-cnn-w
 
 # activate command 
 pyenv activate env 
+
+
+# Data Science Gurus

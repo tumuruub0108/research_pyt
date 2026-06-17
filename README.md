@@ -27,3 +27,11 @@ pyenv activate env
 
 
 # Data Science Gurus
+
+# ML
+
+
+# DL
+
+
+# LLM

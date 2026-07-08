@@ -35,3 +35,4 @@ pyenv activate env
 
 
 # LLM
+Build a Large Language Model: Raschka S

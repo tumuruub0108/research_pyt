@@ -1,2 +1,4 @@
 venv/
 datasets/
+llm/sms_spam_collection/
+llm/gpt2/

@@ -32,3 +32,22 @@ pyenv activate env
 
 # LLM
 Build a Large Language Model: Raschka S
+
+```bash
+In practice, instruction-fine-tuned LLMs such as chatbots are evaluated via multiple approaches:
+Short-answer and multiple-choice benchmarks, such as Measuring Massive Multitask Language Understanding (MMLU; https://arxiv.org/abs/2009.03300), which test the general knowledge of a model.
+
+Human preference comparison to other LLMs, such as LMSYS chatbot arena (https://arena.lmsys.org).
+
+Automated conversational benchmarks, where another LLM like GPT-4 is used to evaluate the responses, such as AlpacaEval (https://tatsu-lab.github.io/alpaca_eval/).
+```
+
+```bash
+explore recent research papers : https://arxiv.org/list/cs.LG/recent
+blog_1: https://magazine.sebastianraschka.com/
+blog_2: https://sebastianraschka.com/blog/
+
+you may be interested in utilizing different and more powerful LLMs for real-world applications. For this, I recommend exploring popular tools such as Axolotl
+Axolotl: https://github.com/axolotl-ai-cloud/axolotl
+LitGPT: https://github.com/Lightning-AI/litgpt
+```

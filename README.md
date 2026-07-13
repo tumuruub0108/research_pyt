@@ -51,3 +51,9 @@ you may be interested in utilizing different and more powerful LLMs for real-wor
 Axolotl: https://github.com/axolotl-ai-cloud/axolotl
 LitGPT: https://github.com/Lightning-AI/litgpt
 ```
+
+```bash
+Hands on LLM
+
+Natural Language Processing with Transformers building language applications
+```
